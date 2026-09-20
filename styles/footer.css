@@ -9,3 +9,18 @@ footer {
 footer span:nth-child(1) {
     margin-right: auto;
 }
+
+@media (max-width: 40em) {
+    footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 24px;
+        text-align: center;
+    }
+
+    footer span:nth-child(1) {
+        grid-column: 1 / -1;
+        margin-right: 0;
+    }
+}

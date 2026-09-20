@@ -19,6 +19,12 @@ nav ul {
 nav ul li:last-child img {
     width: 40px;
     height: 40px;
-    
 } 
 
+@media (max-width: 40em) {
+
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3) {
+        display: none;
+    }
+}
