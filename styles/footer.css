@@ -24,3 +24,16 @@ footer span:nth-child(1) {
         margin-right: 0;
     }
 }
+
+@media (max-width: 40em) {
+  main {
+    gap: 16px;
+  }
+
+  main img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+}
